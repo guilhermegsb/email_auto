@@ -1,2 +1,2 @@
 # email_auto
- Automation of receiving monthly emails, downloads all pdfs and turns them into a single file
+ The objective of the program is very simple, after providing the user and password it will search your email for pdf files about a certain sender that is in the code, after that the program will save all the pdfs in a single pdf file, the program was created to reduce the time spent because in the company I work for every month they send 26 emails containing a payment slip in each email, so I made the 26 slips become just one without having to enter email by email to get the pdf of each email, the estimate is which saves around 15m with this simple automation.
