@@ -13,14 +13,10 @@ import PyPDF2
 import os
 from datetime import date
 
-data_atual= date.today()
-dia= data_atual.day
-mes= data_atual.month
 lista_emails = meu_email.fetch(AND(from_="financeiro@deltainf.com.br"))
 
 for email in (lista_emails):
     if len(email.attachments) > 0:
-        os.makedir('./{}-{}'.format(dia, mes))
         for anexo in email.attachments: 
             nome = anexo.filename
             if 'pdf' in nome:
