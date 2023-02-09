@@ -11,7 +11,7 @@ meu_email= MailBox("imap-mail.outlook.com").login(usuario, senha)
 
 import PyPDF2
 import os
-from datetime import date
+
 
 lista_emails = meu_email.fetch(AND(from_="financeiro@deltainf.com.br"))
 
